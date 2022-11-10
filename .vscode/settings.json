@@ -1,0 +1,22 @@
+{
+  "workbench.colorTheme": "Monokai",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.options": {
+    "rules": {
+      "import/default": "error",
+      "import/export": "error",
+      "import/named": "error",
+      "import/namespace": "error",
+      "import/no-duplicates": "error",
+      "import/no-named-as-default": "error",
+      "import/no-named-as-default-member": "error",
+      "import/no-unresolved": "error"
+    }
+  },
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "cSpell.words": ["highscore"]
+}
